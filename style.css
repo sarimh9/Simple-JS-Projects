@@ -1,0 +1,11 @@
+body {
+  height: 99vh;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+.projects > a {
+  margin: 10px;
+  font-size: 24px;
+}

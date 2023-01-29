@@ -1,0 +1,32 @@
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: lightblue;
+  padding-left: 16px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  transition: all 1s linear;
+  transform: translateX(-240px);
+}
+.yt-icon {
+  width: 120px;
+  height: 56px;
+  padding-left: 16px;
+}
+.fa-bars {
+  cursor: pointer;
+  padding: 8px;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+}
+.section2 {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+.show-sidebar {
+  transform: translateX(0);
+}
