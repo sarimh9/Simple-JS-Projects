@@ -1,5 +1,6 @@
 const body = document.querySelector("body");
 const footer = document.createElement("footer");
+footer.classList.add('footer')
 const footerHtml = `
 <div class="icons">
     <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-128.png"
@@ -19,6 +20,7 @@ const footerHtml = `
 <a class="home-link" href="../index.html">Go to Home Page</a>
 <h3>Made by: Sarim Hussain</h3>`;
 
-footer.innerHTML = footerHtml;
-
-body.appendChild(footer);
+if(!window.location.href.includes('index.html')){
+    footer.innerHTML = footerHtml;
+    body.appendChild(footer);
+}

@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid black;
+  border-style: dotted;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: fit-content;
+  margin: 10px auto 10px auto;
+  border-width: 8px;
+}
+.btn-box {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.food-item {
+  display: flex;
+  width: 50vw;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.food-item > img {
+  height: 150px;
+  width: 225px;
+  margin-right: 10px;
+}
+.item-name {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.item-desc {
+  margin-top: 10px;
+}
