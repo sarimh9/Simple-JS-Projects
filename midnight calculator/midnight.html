@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../commonStyles.css">
+
+    <script defer src="../commonScript.js"></script>
+
+    <title>Midnight Calculator</title>
+</head>
+
+<body>
+    <h1 class="heading-1">Midnight Calculator</h1>
+
+    <div class="box">
+        <label for="sunset-time">
+            <h3>Enter Sunset time 🌙</h3>
+        </label>
+        <input type="time" id="sunset-time">
+    </div>
+    <!-- TODO: add an api to fetch sunrise and sunset time. -->
+    <div class="box">
+        <label for="sunrise-time">
+            <h3>Enter Sunrise time 🌞</h3>
+        </label>
+        <input type="time" id="sunrise-time">
+    </div>
+
+    <button id="calculate">Calculate</button>
+
+    <h2>Result:</h2> <br>
+    <h2 class="result">00:00</h2>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

@@ -78,3 +78,8 @@ footer > a {
   background-color: black;
   color: white;
 }
+
+.projects > a:hover {
+  background-color: darkolivegreen;
+  color: white;
+}
